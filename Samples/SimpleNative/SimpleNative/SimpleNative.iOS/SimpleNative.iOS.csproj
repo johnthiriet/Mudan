@@ -122,6 +122,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Mudan\Mudan.iOS\Mudan.iOS.csproj">
+      <Project>{c1795d44-b6aa-4eea-b4e3-22b1ce3d0059}</Project>
+      <Name>Mudan.iOS</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
+    </ProjectReference>
     <ProjectReference Include="..\SimpleNative\SimpleNative.csproj">
       <Project>{f197c3a9-9b07-4125-bc9d-156db064bc0d}</Project>
       <Name>SimpleNative</Name>

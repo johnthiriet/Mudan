@@ -38,3 +38,11 @@ Thumbs.db
 
 # dotCover
 *.dotCover
+
+Mudan/.vs/Mudan/v15/Server/sqlite3/db.lock
+
+Mudan/.vs/Mudan/v15/Server/sqlite3/storage.ide
+
+*.ide-wal
+
+*.ide

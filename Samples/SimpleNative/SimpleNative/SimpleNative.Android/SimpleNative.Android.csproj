@@ -63,6 +63,10 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Mudan\Mudan.Android\Mudan.Android.csproj">
+      <Project>{ddb2f9a7-5794-48c9-a0b8-c568d1361ce4}</Project>
+      <Name>Mudan.Android</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SimpleNative\SimpleNative.csproj">
       <Project>{f197c3a9-9b07-4125-bc9d-156db064bc0d}</Project>
       <Name>SimpleNative</Name>

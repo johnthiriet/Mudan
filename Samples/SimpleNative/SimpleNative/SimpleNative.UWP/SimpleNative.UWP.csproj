@@ -132,6 +132,12 @@
       <Version>2.3.3.193</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleNative\SimpleNative.csproj">
+      <Project>{f197c3a9-9b07-4125-bc9d-156db064bc0d}</Project>
+      <Name>SimpleNative</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
